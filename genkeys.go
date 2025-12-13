@@ -802,7 +802,7 @@ func main() {
 		case filepath.Join("internal", "ui", "keys_mobile.go"):
 			buildConstraints = "//go:build android || ios"
 		case filepath.Join("internal", "ui", "keys_glfw.go"):
-			buildConstraints = "//go:build !android && !ios && !js && !nintendosdk && !playstation5"
+			buildConstraints = "//go:build !android && !ios && !js && !nintendosdk && !playstation5 && !plan9"
 		}
 		// NOTE: According to godoc, maps are automatically sorted by key.
 		w := bufio.NewWriter(f)

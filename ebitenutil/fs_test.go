@@ -17,6 +17,7 @@ package ebitenutil_test
 import (
 	"embed"
 	"image"
+
 	// `NewImageFromFileSystem` works without this importing, but this is not an expected thing (#2336).
 	_ "image/png"
 	"testing"
