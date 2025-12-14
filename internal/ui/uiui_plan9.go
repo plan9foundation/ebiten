@@ -17,7 +17,6 @@ package ui
 import (
 	"errors"
 	"sync"
-	"syscall/js"
 	"time"
 
 	"github.com/hajimehoshi/ebiten/v2/internal/color"
