@@ -310,3 +310,13 @@ func IsScreenTransparentAvailable() bool {
 	panic("IsScreenTransparentAvailable not implemented")
 	return false
 }
+
+func (u *UserInterface) initOnMainThread(options *RunOptions) error {
+	panic("initOnMainThread")
+	return errors.New("no")
+}
+
+func (u *UserInterface) loopGame() error {
+	panic("loopGame")
+	return nil
+}
