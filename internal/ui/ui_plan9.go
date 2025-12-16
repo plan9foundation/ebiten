@@ -98,8 +98,7 @@ var (
 )
 
 func (u *UserInterface) init() error {
-	panic("init not implemented")
-	return errors.New("no")
+	return nil
 }
 
 // Update is called from mobile/ebitenmobileview.
