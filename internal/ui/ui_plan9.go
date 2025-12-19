@@ -20,9 +20,11 @@ import (
 	"sync/atomic"
 
 	"github.com/hajimehoshi/ebiten/v2/internal/graphicsdriver"
+	"9fans.net/go/draw"
 )
 
 type graphicsDriverCreatorImpl struct {
+	d *draw.Display
 }
 
 func (g *graphicsDriverCreatorImpl) newAuto() (graphicsdriver.Graphics, GraphicsLibrary, error) {
